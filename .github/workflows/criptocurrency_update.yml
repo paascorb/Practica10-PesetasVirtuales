@@ -5,7 +5,8 @@ name: cryptocurrency_update
 on:
  push:
  repository_dispatch:
-   types: invocacion_desde_curl jobs:
+   types: invocacion_desde_curl 
+jobs:
   autoscrape:
     # The type of runner that the job will run on
     runs-on: macos-latest
